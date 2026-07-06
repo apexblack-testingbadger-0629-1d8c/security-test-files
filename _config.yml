@@ -1,0 +1,15 @@
+title: Security Test Site
+description: >
+  Testing Jekyll server-side processing
+  !ruby/hash:ActionController::Base
+  !ruby/object:Gem::Requirement
+  
+# Test YAML deserialization
+plugins: []
+markdown: kramdown
+theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: plaintext
+    css_class: 'highlight'
